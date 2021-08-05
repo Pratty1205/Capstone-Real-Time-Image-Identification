@@ -1,0 +1,46 @@
+.heading {
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 50px lightseagreen;
+}
+
+.heading_div {
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 10px lightseagreen;
+}
+
+.heading_div2 {
+    font-size: 20px;
+}
+
+.result_tag {
+    box-shadow: 5px 5px 10px lightseagreen;
+    font-size: 22px;
+}
+
+.acc_tag {
+    box-shadow: 5px 5px 10px lightseagreen;
+    font-size: 22px;
+}
+
+.footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: teal;
+    line-height: 5;
+    text-align: center;
+}
+
+canvas {
+    border: 5px solid teal;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px lightseagreen;
+    margin-top: 150px;
+}

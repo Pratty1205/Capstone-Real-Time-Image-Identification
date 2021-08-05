@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body background="https://miro.medium.com/max/2000/1*2T0Fl4mVQjUgIZ3CMjB5XQ.png" style="background-size: cover;">
+    <center>
+        <h1 class="btn btn-info heading">Realtime Image Identification
+            <hr>
+            <center>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">Model is Trained to Identify
+                    <br>
+                    <div class="btn btn-warning heading_div2"> Water Bottle | Powder Bottle | Mobile Phone | My Face
+                    </div>
+                </div>
+            </center>
+            <br>
+        </h1>
+        <br><br>
+        <p class="btn btn-warning result_tag">Object: <span id="result_object_name"></span></p>
+        <br><br>
+        <p class="btn btn-warning acc_tag">Accuracy: <span id="result_accuracy_name"></span></p>
+    </center>
+    <div class="footer">Developed By- Pratyush</div>
+</body>
+
+</html>
